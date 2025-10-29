@@ -1,0 +1,79 @@
+Last login: Tue Oct 28 22:28:42 on ttys000
+ggg@MacBook-Air-GGG ~ % mkdir magic-ball
+ggg@MacBook-Air-GGG ~ % cd magic-ball
+ggg@MacBook-Air-GGG magic-ball % dir
+zsh: command not found: dir
+ggg@MacBook-Air-GGG magic-ball % ls
+ggg@MacBook-Air-GGG magic-ball % # 🔮 Магический шар предсказаний
+# Автор: Алия
+
+import random
+
+print("🔮 Добро пожаловать в программу 'Магический Шар Судьбы'!")
+print("Задай свой вопрос, и я дам тебе ответ...")
+
+question = input("👉 Твой вопрос: ")
+
+answers = [
+    "Да, конечно! ✨",
+    "Нет, даже не думай 😅",
+    "Возможно... 🤔",
+    "Спроси позже ⏳",
+    "Лучше не знать ответ 😶",
+    "Судьба говорит — да! 💫",
+    "Не сейчас 🕐",
+    "Определённо нет ❌",
+    "Похоже на то 💭",
+    "Шансы малы, но есть 🌙"
+]
+
+print("🔮 Ответ:", random.choice(answers))
+dquote> 
+dquote> 
+ggg@MacBook-Air-GGG magic-ball % python main.py
+zsh: command not found: python
+ggg@MacBook-Air-GGG magic-ball % python3 main.py
+/Library/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/ggg/magic-ball/main.py': [Errno 2] No such file or directory
+ggg@MacBook-Air-GGG magic-ball % ls
+ggg@MacBook-Air-GGG magic-ball % cd ~/Desktop/magic-ball
+ggg@MacBook-Air-GGG magic-ball % ls
+ggg@MacBook-Air-GGG magic-ball % python3 main.py
+/Library/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/ggg/Desktop/magic-ball/main.py': [Errno 2] No such file or directory
+ggg@MacBook-Air-GGG magic-ball % cd ~/Desktop/magic-ball
+ggg@MacBook-Air-GGG magic-ball % touch main.py
+ggg@MacBook-Air-GGG magic-ball % code main.py
+zsh: command not found: code
+ggg@MacBook-Air-GGG magic-ball % python3 main.py
+🔮 Добро пожаловать в программу 'Магический Шар Судьбы'!
+👉 Задай свой вопрос: python3 main.py
+🔮 Ответ: Пока не ясно 🔮
+ggg@MacBook-Air-GGG magic-ball % python3 main.py
+ggg@MacBook-Air-GGG magic-ball % python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+
+
+
+
+d 
+ggg@MacBook-Air-GGG magic-ball % python3 main.py
+ggg@MacBook-Air-GGG magic-ball % 
+ggg@MacBook-Air-GGG magic-ball % python3 main.py
+ggg@MacBook-Air-GGG magic-ball % python3 main.py
+ggg@MacBook-Air-GGG magic-ball % python3 main.py
+ggg@MacBook-Air-GGG magic-ball % 
+ggg@MacBook-Air-GGG magic-ball % 
+ggg@MacBook-Air-GGG magic-ball % 
+ggg@MacBook-Air-GGG magic-ball % 
+ggg@MacBook-Air-GGG magic-ball % d
+zsh: command not found: d
+ggg@MacBook-Air-GGG magic-ball % ggg@MacBook-Air-GGG magic-ball % python3 main.py
+zsh: command not found: ggg@MacBook-Air-GGG
+ggg@MacBook-Air-GGG magic-ball % ggg@MacBook-Air-GGG magic-ball % python3 main.p 
+zsh: command not found: ggg@MacBook-Air-GGG
+ggg@MacBook-Air-GGG magic-ball % python3 main.p
+/Library/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/ggg/Desktop/magic-ball/main.p': [Errno 2] No such file or directory
+ggg@MacBook-Air-GGG magic-ball % python3 main.py
+ggg@MacBook-Air-GGG magic-ball % python3 main.py
+  
